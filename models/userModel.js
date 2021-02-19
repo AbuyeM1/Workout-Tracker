@@ -19,14 +19,14 @@ const UserSchema = new Schema({
       type: Number,
       required: "Please enter a duration."
     },
-    // weight: {
-    //   type: Number},
-    // distance: {
-    //   type: Number},
-    // reps: {
-    //   type: Number},
-    // sets: {
-    //   type: Number}
+    weight: {
+      type: Number},
+    distance: {
+      type: Number},
+    reps: {
+      type: Number},
+    sets: {
+      type: Number}
   }]
 });
 
