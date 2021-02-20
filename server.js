@@ -8,7 +8,7 @@ const app = express();
 
 app.use(morgan("dev"));
 
-app.use(express.urlencoded({extended: true}));
+app.use(express.urlencoded({ extended: true }));
 
 app.use(express.json());
 
@@ -20,7 +20,7 @@ var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost/workout";
 
 //connecting to MongoDB
 mongoose.connect(MONGODB_URI, {
-  
+
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
@@ -30,6 +30,8 @@ mongoose.connect(MONGODB_URI, {
 app.use(require("./routes/api.js"));
 
 app.use(require("./routes/view.js"));
+
+
 
 app.listen(PORT, function () {
     console.log("App now Listening On: http://localhost:" + PORT);
