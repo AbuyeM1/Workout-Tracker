@@ -17,11 +17,11 @@ also the user can track the name,type,weight,duration of the exercise.
 
 ## Image
 
- ![image](public/images/pic1.png)
+ ![image](public/images/fitnesstracker.png)
 
- ![image](public/images/pic2.png)
+ ![image](public/images/FitnessTracker2.png)
 
- ![image](public/images/pic3.png)
+
 
 ## Deployed Link
 * [Deploy link] (https://rocky-tundra-40131.herokuapp.com/stats)
